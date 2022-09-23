@@ -1,0 +1,8 @@
+.card {
+  margin: 0 auto;
+  width: 80vh;
+  background-color: rgb(211, 211, 211);
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 20px;
+}

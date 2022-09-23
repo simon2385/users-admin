@@ -1,0 +1,12 @@
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.no-acces__message {
+  font-size: 2rem;
+  color: rgb(2, 71, 8);
+  font-weight: 600;
+}

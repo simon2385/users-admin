@@ -1,0 +1,72 @@
+.admin__inputs-container {
+  background-color: rgb(35, 173, 47);
+  width: 90%;
+  display: flex;
+  border-top-right-radius: 20px;  
+}
+
+.admin__name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.admin__code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+
+
+}
+
+.button--show-code {
+  background-color: transparent;
+  border: none;
+  color: rgb(156, 156, 156);
+  margin-left: -35px;
+}
+
+.admin__input {
+  border-radius: 19px;
+  font-size: 1.2rem;
+  border: none;
+  height: 2.9rem;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  width: 90%;
+  padding-left: 15px;
+  color: rgb(3, 68, 9);
+
+}
+
+.admin__input::placeholder {
+  color: rgb(148, 167, 150);
+  font-size: 1.2rem;
+}
+
+.btn--login__container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 20%;
+}
+
+.disabled {
+  color: rgb(215, 213, 213);
+  background-color: rgb(180, 203, 182);
+  height: 2.9rem;
+  border-radius: 19px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
+  cursor: not-allowed;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 6rem;
+}
+
+.disabled:hover {
+ color: rgb(215, 213, 213);
+  background-color: rgb(180, 203, 182); 
+}

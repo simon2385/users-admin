@@ -1,0 +1,51 @@
+.new-user__container {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  justify-content: center;
+  width: 100%;
+  padding-right: 2rem;
+
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 60%;
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: rgb(3, 68, 9);
+  font-weight: 600;
+}
+
+.btn--add-user__container {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  height: 3rem;
+}
+
+.btn--add-user {
+  width: 6rem;
+  border-radius: 19px;
+  border: none;
+  background-color: rgb(35, 173, 47);
+  height: 2.9rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
+}
+
+.btn--add-user:hover {
+  background-color: rgb(15, 119, 24);
+  color: #ccc;
+}
+
+.btn--add-user:active {
+  box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 15px;
+  transform: translateY(2px);
+}

@@ -1,0 +1,22 @@
+.header {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 173, 47);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 10%;
+}
+
+.title {
+  color: rgb(2, 85, 8);
+}
