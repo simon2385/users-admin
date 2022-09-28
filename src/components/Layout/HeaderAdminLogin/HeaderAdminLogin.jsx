@@ -9,7 +9,6 @@ const HeaderAdminLogin = ({ admin, onAccesValid }) => {
   const [showCode, setShowCode] = useState(false);
 
   let adminFormIsValid;
-  let loggedIn;
 
   const inputAdminHandler = e => {
     setEnteredAdmin(e.target.value);
@@ -36,7 +35,7 @@ const HeaderAdminLogin = ({ admin, onAccesValid }) => {
 
   const btnLoginClasses = !adminFormIsValid
     ? classes.disabled
-    : '';
+    : classes['btn--login'];
 
   const iconCodeInput = !showCode ? (
     <i className="eye icon"></i>
@@ -81,9 +80,9 @@ const HeaderAdminLogin = ({ admin, onAccesValid }) => {
         </button>
       </div>
       <div className={classes['btn--login__container']}>
-        <ButtonGreen type="submit" className={btnLoginClasses}>
+        <button type="submit" className={btnLoginClasses}>
           login
-        </ButtonGreen>
+        </button>
       </div>
     </form>
   );

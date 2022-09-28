@@ -4,15 +4,15 @@
   height: 2.9rem;
   border-radius: 19px;
   border: none;
-  background-color: rgb(195, 5, 5);
+  color: rgb(195, 5, 5);
   box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
-  color: #ccc;
+  background-color: #ccc;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .btn--red:hover {
-  background-color: rgb(162, 3, 3);
+  background-color: rgb(175, 175, 175);
 }
 
 .btn--red:active {

@@ -12,12 +12,14 @@ function App() {
   const [addNewUser, setAddNewUser] = useState(false);
 
   const onAccesValid = acces => setAdminAcces(acces);
-  const onAddingNewUser = addingNewUser => setAddNewUser(addingNewUser);
+  const addingNewUserHandler = addingNewUser => setAddNewUser(addingNewUser);
 
   const admin = {
     name: 'simon',
     code: '23xyz',
   };
+
+  console.log(addNewUser)
 
   //adminAcces condition changed for testing styles
   return (
@@ -31,9 +33,9 @@ function App() {
         <section>
           <RegistredUsers />
           {addNewUser ? (
-            <NewUserForm />
+            <NewUserForm onAddingNewUser={addingNewUserHandler} />
           ) : (
-            <NewUser onAddingNewUser={onAddingNewUser} />
+            <NewUser onAddingNewUser={addingNewUserHandler} />
           )}
         </section>
       ) : (

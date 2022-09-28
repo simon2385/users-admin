@@ -17,8 +17,6 @@
   justify-content: center;
   align-items: center;
   width: 40%;
-
-
 }
 
 .button--show-code {
@@ -38,7 +36,6 @@
   width: 90%;
   padding-left: 15px;
   color: rgb(3, 68, 9);
-
 }
 
 .admin__input::placeholder {
@@ -48,9 +45,27 @@
 
 .btn--login__container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   width: 20%;
+}
+
+.btn--login {
+  height: 2.9rem;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 6rem;
+  color: rgb(2, 85, 8);
+  background-color: #ccc;
+}
+
+.btn--login:hover {
+  color: rgb(2, 85, 8);
+  background-color: rgb(175, 175, 175);
 }
 
 .disabled {

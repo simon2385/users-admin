@@ -24,7 +24,6 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-
 }
 
 .user__container {
@@ -36,7 +35,6 @@
   border-left: 1px solid rgb(4, 104, 12);
   padding-bottom: 1rem;
   padding-top: 1rem;
-
 }
 
 .user__id {
@@ -45,7 +43,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
-
 }
 
 .user-info__container {
@@ -56,11 +53,9 @@
 .btn__container {
   width: 30%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
-
-
 
 .message-loading-container {
   display: flex;

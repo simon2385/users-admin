@@ -1,6 +1,5 @@
 import React from 'react';
 
-import ButtonGreen from '../../../UI/Buttons/ButtonGreen';
 import classes from './AdminLoggedIn.module.css';
 
 const AdminLoggedIn = ({ admin, onAccesValid }) => {
@@ -19,7 +18,7 @@ const AdminLoggedIn = ({ admin, onAccesValid }) => {
         </h3>
       </div>
       <div className={classes['logout__btn-container']}>
-        <ButtonGreen>logout</ButtonGreen>
+        <button className={classes['btn--logout']}>logout</button>
       </div>
     </form>
   );

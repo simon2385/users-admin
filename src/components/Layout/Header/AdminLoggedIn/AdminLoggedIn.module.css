@@ -4,11 +4,9 @@
   display: flex;
   justify-content: space-between;
   border-top-right-radius: 20px;
-
 }
 
 .loggedin__title-container {
-
   width: 80%;
   display: flex;
   align-items: center;
@@ -18,17 +16,16 @@
 .loggedin__title {
   font-size: 1.6rem;
   color: rgb(2, 71, 8);
- 
 }
 
 .logout__btn-container {
   width: 20%;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
-.logout-btn {
+.btn--logout {
   height: 2.9rem;
   border-radius: 20px;
   border: none;
@@ -37,16 +34,16 @@
   font-size: 1rem;
   font-weight: 700;
   width: 6rem;
-  background-color: rgb(2, 85, 8);
-  background-color: rgb(35, 173, 47);
+  color: rgb(2, 85, 8);
+  background-color: #ccc;
 }
 
-.logout-btn:hover {
-  background-color: rgb(2, 85, 8);
-  color: rgb(180, 203, 182);
+.btn--logout:hover {
+  color: rgb(2, 85, 8);
+  background-color: rgb(175, 175, 175);
 }
 
-.logout-btn:active {
+.btn--logout:active {
   box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 15px;
   transform: translateY(2px);
 }

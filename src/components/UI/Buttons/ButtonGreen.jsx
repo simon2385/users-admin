@@ -6,7 +6,7 @@ const ButtonGreen = ({ children, onClick, className, type }) => {
   const styles = `${classes['btn--green']} ${className}`
   
   return (
-    <button className={styles} type={type}>
+    <button className={styles} type={type} onClick={onClick || undefined}>
       {children} 
     </button>
   );

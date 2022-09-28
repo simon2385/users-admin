@@ -1,0 +1,37 @@
+.form__input-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  align-items: center;
+  position: relative;
+}
+
+.label {
+  font-size: 1.2rem;
+  color: rgb(3, 68, 9);
+  font-weight: 600;
+  justify-self: flex-start;
+}
+
+.input {
+  border-radius: 19px;
+  font-size: 1.2rem;
+  border: none;
+  height: 2.5rem;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  width: 50%;
+  padding-left: 15px;
+  color: rgb(3, 68, 9);
+  justify-self: flex-end;
+}
+
+.button--show-password {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: rgb(156, 156, 156);
+  margin-left: -35px;
+  right: 0.1rem;
+}
