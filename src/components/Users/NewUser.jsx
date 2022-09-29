@@ -1,6 +1,7 @@
 import React from 'react';
 
-import classes from './NewUser.module.css';
+import Button from '../UI/Buttons/Button/Button';
+import classes from './NewUser.module.scss';
 
 const NewUser = ({ onAddingNewUser }) => {
   const addUserHandler = () => {
@@ -13,9 +14,9 @@ const NewUser = ({ onAddingNewUser }) => {
         <p className={classes.title}>New User</p>
       </div>
       <div className={classes['btn--add-user__container']}>
-        <button className={classes['btn--add-user']} onClick={addUserHandler}>
+        <Button styles={'button--primary'} onClick={addUserHandler} type={'button'}>
           <i className="plus icon"></i>
-        </button>
+        </Button>
       </div>
     </div>
   );

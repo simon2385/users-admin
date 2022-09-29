@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
-import ButtonGreen from '../../UI/Buttons/ButtonGreen';
-import classes from './HeaderAdminLogin.module.css';
+import Button from '../../UI/Buttons/Button/Button';
+
+import classes from './HeaderAdminLogin.module.scss';
 
 const HeaderAdminLogin = ({ admin, onAccesValid }) => {
   const [enteredAdmin, setEnteredAdmin] = useState('');
@@ -32,10 +33,6 @@ const HeaderAdminLogin = ({ admin, onAccesValid }) => {
     setEnteredAdmin('');
     setEnteredCode('');
   };
-
-  const btnLoginClasses = !adminFormIsValid
-    ? classes.disabled
-    : classes['btn--login'];
 
   const iconCodeInput = !showCode ? (
     <i className="eye icon"></i>
@@ -80,9 +77,13 @@ const HeaderAdminLogin = ({ admin, onAccesValid }) => {
         </button>
       </div>
       <div className={classes['btn--login__container']}>
-        <button type="submit" className={btnLoginClasses}>
+        <Button
+          type={'submit'}
+          isDisabled={adminFormIsValid}
+          styles={adminFormIsValid ? 'button--primary' : 'disabled'}
+        >
           login
-        </button>
+        </Button>
       </div>
     </form>
   );

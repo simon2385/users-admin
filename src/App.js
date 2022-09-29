@@ -5,7 +5,8 @@ import RegistredUsers from './components/Users/RegistredUsers';
 import Header from './components/Layout/Header/Header.jsx';
 import NewUser from './components/Users/NewUser';
 import NewUserForm from './components/Users/NewUserForm';
-import classes from './App.module.css';
+
+import classes from './App.module.scss';
 
 function App() {
   const [adminAcces, setAdminAcces] = useState(false);
@@ -39,8 +40,8 @@ function App() {
           )}
         </section>
       ) : (
-        <div className={classes['message-container']}>
-          <p className={classes['no-acces__message']}>Login to see the users</p>
+        <div className={classes['message__container']}>
+          <p className={classes['message__no-acces']}>Login to see the users</p>
         </div>
       )}
     </Card>

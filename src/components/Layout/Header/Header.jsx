@@ -2,7 +2,8 @@ import React from 'react';
 
 import HeaderAdminLogin from '../HeaderAdminLogin/HeaderAdminLogin';
 import AdminLoggedIn from './AdminLoggedIn/AdminLoggedIn';
-import classes from './Header.module.css';
+
+import classes from './Header.module.scss';
 
 const Header = ({ admin, adminAcces, onAccesValid }) => {
   const adminAuthToREnder = !adminAcces ? (

@@ -30,22 +30,3 @@
   height: 3rem;
 }
 
-.btn--add-user {
-  width: 6rem;
-  border-radius: 19px;
-  border: none;
-  background-color: rgb(35, 173, 47);
-  height: 2.9rem;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
-}
-
-.btn--add-user:hover {
-  background-color: rgb(15, 119, 24);
-  color: #ccc;
-}
-
-.btn--add-user:active {
-  box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 15px;
-  transform: translateY(2px);
-}

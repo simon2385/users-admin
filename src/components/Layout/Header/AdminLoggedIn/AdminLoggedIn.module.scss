@@ -1,0 +1,28 @@
+@import url(../../../../styles/_variables.scss);
+
+.loggedin__container {
+  background-color: color-green-ligth;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-top-right-radius: 20px;
+}
+
+.loggedin__title-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loggedin__title {
+  font-size: 1.6rem;
+  color: color-grey-dark;
+}
+
+.logout__btn-container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

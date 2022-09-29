@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-import ButtonRed from '../UI/Buttons/ButtonRed';
-import classes from './RegistredUsers.module.css';
+import Button from '../UI/Buttons/Button/Button';
+
+import classes from './RegistredUsers.module.scss';
 
 const RegistredUsers = () => {
   const [users, setUsers] = useState([]);
@@ -48,9 +49,9 @@ const RegistredUsers = () => {
           </div>
         </div>
         <div className={classes['btn__container']}>
-          <ButtonRed>
+          <Button styles={'button--secondary'} type={'button'}>
             <i className="trash alternate outline icon"></i>
-          </ButtonRed>
+          </Button>
         </div>
       </li>
     );

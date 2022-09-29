@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 
-import ButtonGreen from '../UI/Buttons/ButtonGreen';
-import ButtonRed from '../UI/Buttons/ButtonRed';
+import Button from '../UI/Buttons/Button/Button';
 import Input from '../UI/Input/Input';
-import classes from './NewUserForm.module.css';
+import classes from './NewUserForm.module.scss';
 
 const NewUserForm = ({ onAddingNewUser }) => {
   const [inputs, setInputs] = useState({});
@@ -66,10 +65,16 @@ const NewUserForm = ({ onAddingNewUser }) => {
           />
         </div>
         <div className={classes['form-btns']}>
-          <ButtonRed onClick={cancelAddNewUserHandler} type={'button'}>
+          <Button
+            onClick={cancelAddNewUserHandler}
+            type={'button'}
+            styles={'button--secondary'}
+          >
             Cancel
-          </ButtonRed>
-          <ButtonGreen type={'submit'}>Add</ButtonGreen>
+          </Button>
+          <Button type={'submit'} styles={'button--primary'}>
+            Add
+          </Button>
         </div>
       </form>
     </section>

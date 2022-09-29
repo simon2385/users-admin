@@ -1,8 +1,10 @@
+@import url(../../../styles/_variables.scss);
+
 .header {
   height: 6rem;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(35, 173, 47);
+  background-color: color-green-ligth;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   width: 100%;
@@ -18,5 +20,5 @@
 }
 
 .title {
-  color: rgb(2, 85, 8);
+  color: color-grey-dark;
 }

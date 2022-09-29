@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import classes from './Input.module.css';
+import classes from './Input.module.scss';
 
 const Input = ({ name, onChange, value, label }) => {
   const [showPassword, setShowPassword] = useState(false);
