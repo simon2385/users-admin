@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .form-container {
   padding-right: 2rem;
   padding-left: 2rem;
@@ -5,8 +7,8 @@
 }
 
 .form__title {
-  font-size: 2rem;
-  color: rgb(3, 68, 9);
+  font-size: $title-secondary;
+  color: $color-grey-dark;
   font-weight: 600;
   text-align: center;
 }
@@ -15,8 +17,8 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgb(4, 104, 12);
-  border-left: 1px solid rgb(4, 104, 12);
+  border-bottom: $border-line;
+  border-left: $border-line;
 }
 
 .form-inputs {

@@ -1,7 +1,7 @@
-@import url(../../../styles/_variables.scss);
+@import '../../../styles/_variables.scss';
 
 .admin__inputs-container {
-  background-color: color-green-ligth;
+  background-color: $color-grey-primary;
   width: 90%;
   display: flex;
   border-top-right-radius: 20px;
@@ -24,8 +24,9 @@
 .button--show-code {
   background-color: transparent;
   border: none;
-  color: rgb(156, 156, 156);
+  color: $color-grey-secondary;
   margin-left: -35px;
+  cursor: pointer;
 }
 
 .admin__input {
@@ -33,15 +34,15 @@
   font-size: 1.2rem;
   border: none;
   height: 2.9rem;
-  background-color: rgb(255, 255, 255);
+  background-color: $color-grey-ligth;
   outline: none;
   width: 90%;
   padding-left: 15px;
-  color: rgb(3, 68, 9);
+  color: $color-grey-dark;
 }
 
 .admin__input::placeholder {
-  color: rgb(148, 167, 150);
+  color: $color-grey-primary;
   font-size: 1.2rem;
 }
 

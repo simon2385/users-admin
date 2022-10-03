@@ -1,7 +1,7 @@
-@import url(../../../../styles/_variables.scss);
+@import '../../../../styles/_variables.scss';
 
 .loggedin__container {
-  background-color: color-green-ligth;
+  background-color: $color-grey-primary;
   width: 90%;
   display: flex;
   justify-content: space-between;

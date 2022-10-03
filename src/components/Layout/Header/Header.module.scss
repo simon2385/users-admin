@@ -1,10 +1,10 @@
-@import url(../../../styles/_variables.scss);
+@import '../../../styles/variables';
 
 .header {
   height: 6rem;
   display: flex;
   justify-content: space-between;
-  background-color: color-green-ligth;
+  background-color: $color-grey-primary;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   width: 100%;
@@ -20,5 +20,5 @@
 }
 
 .title {
-  color: color-grey-dark;
+  color: $color-grey-dark;
 }

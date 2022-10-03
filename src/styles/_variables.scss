@@ -1,16 +1,18 @@
 $color-green-ligthest: rgb(180, 203, 182);
 $color-green-ligth: rgb(159, 198, 162);
 $color-green-primary: rgb(35, 173, 47);
-$color-green-secondary: rgb(4, 104, 12);
+$color-green-secondary: rgb(0, 188, 16);
 $color-green-dark: rgb(2, 71, 8);
 
-$color-green-transparent: rgba(35, 173, 46, 0.377);
-$color-green-transparent-dark: rgba(2, 85, 8, 0.43);
-
 $color-grey-dark: rgb(62, 62, 62);
-$color-grey: #ccc;
-$color-grey-hover: rgb(215, 213, 213);
+$color-grey-primary: #ccc;
+$color-grey-secondary: rgb(177, 177, 177);
 $color-grey-ligth: rgb(255, 255, 255);
 
 $shadow-button: rgba(0, 0, 0, 0.575) 0px 5px 15px;
 $shadow-button-active: rgba(0, 0, 0, 0.575) 0px 3px 15px;
+
+$border-line: 1px solid $color-grey-dark; 
+
+$title-primary: 2rem;
+$title-secondary: 1.6rem;  

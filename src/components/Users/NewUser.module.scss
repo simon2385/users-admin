@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .new-user__container {
   display: flex;
   align-items: center;
@@ -5,7 +7,6 @@
   justify-content: center;
   width: 100%;
   padding-right: 2rem;
-
 }
 
 .title-container {
@@ -18,8 +19,8 @@
 }
 
 .title {
-  font-size: 2rem;
-  color: rgb(3, 68, 9);
+  font-size: $title-secondary;
+  color: $color-grey-dark;
   font-weight: 600;
 }
 
@@ -29,4 +30,3 @@
   justify-content: flex-end;
   height: 3rem;
 }
-

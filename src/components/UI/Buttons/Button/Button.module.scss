@@ -1,51 +1,53 @@
+@import '../../../../styles/_variables.scss';
+
 .button {
   padding: 10px;
   width: 6rem;
   height: 2.9rem;
   border-radius: 19px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
+  box-shadow: $shadow-button;
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 700;
 }
 
 .button:active {
-  box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 15px;
+  box-shadow: $shadow-button-active;
   transform: translateY(2px);
 }
 
 .button--primary {
-  color: rgb(2, 85, 8);
-  background-color: rgb(35, 173, 47);
+  color: $color-grey-ligth;
+  background-color: $color-green-primary;
 }
 
 .button--primary:hover {
-  background-color: rgb(2, 85, 8);
-  color: rgb(180, 203, 182);
+  background-color: $color-green-secondary;
+  color: $color-grey-ligth;
 }
 
 .button--secondary {
-  color: rgb(62, 62, 62);
-  background-color: #ccc;
+  color: $color-grey-dark;
+  background-color: $color-grey-primary;
 }
 
 .button--secondary:hover {
-  background-color: rgb(175, 175, 175);
+  background-color: $color-grey-secondary;
 }
 
 .disabled {
-  color: rgba(2, 85, 8, 0.43);
-  background-color: rgba(35, 173, 46, 0.377);
+  color: $color-grey-primary;
+  background-color: $color-grey-ligth;
   cursor: not-allowed;
 }
 
 .disabled:hover {
- color: rgb(215, 213, 213);
-  background-color: rgb(180, 203, 182); 
+  color: $color-grey-primary;
+  background-color: $color-grey-ligth;
 }
 
 .disabled:active {
-  box-shadow: rgba(0, 0, 0, 0.575) 0px 5px 15px;
+  box-shadow: $shadow-button-active;
   transform: translateY(0px);
 }
